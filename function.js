@@ -15,4 +15,8 @@ function firstFunction() {
 } 
     function secondFunction() {
      console.log("Inside secondFunction");     
-} // it goes from first to the last function
+} // It goes from first to the last function
+function recursiveFunction() {
+     return recursiveFunction(); 
+}
+// Function that causes the stack to overflow
